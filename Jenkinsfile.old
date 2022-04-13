@@ -13,6 +13,29 @@ pipeline {
       }
     }
     
+    
+    stage ('OWASP Dependency-Check Vulnerabilities') {  
+    steps {  
+     withMaven(maven : 'Maven') {  
+      sh 'mvn dependency-check:check'  
+     }  
+   
+     dependencyCheckPublisher pattern: 'target/dependency-check-report.xml'  
+    }  
+   }  
+   
+   stage('SonarQube analysis') {  
+    steps {  
+     withSonarQubeEnv(credentialsId: 'token soar', installationName: 'sonar') {  
+      withMaven(maven : 'Maven') {  
+       sh 'mvn sonar:sonar -Dsonar.dependencyCheck.jsonReportPath=target/dependency-check-report.json -Dsonar.dependencyCheck.xmlReportPath=target/dependency-check-report.xml -Dsonar.dependencyCheck.htmlReportPath=target/dependency-check-report.html'  
+      }  
+     }  
+    }  
+   }  
+    
+    
+    
     stage ('Check-Git-Secrets') {
       steps {
         sh 'rm trufflehog || true'
