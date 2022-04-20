@@ -13,13 +13,7 @@ pipeline {
       }
     }
     
-    stage('dependancy-test') {
-    steps {
-    dependencyCheck additionalArguments: 'scan="path to scan" --format HTML --format XML ', odcInstallation: 'owasp'
-     
-      }
-    }
-    
+ 
     
     stage ('Check-Git-Secrets') {
       steps {
