@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Devsecops Course</title>
+    <title>Devsecops </title>
 
 
     <!-- Custom styles for this template -->
@@ -51,7 +51,7 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
-        <h1>Hello</h1>
+        <h1>Hello world this is test website for devsecops </h1>
         <p>This is from dev branch. </p>
         <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
     </div>
@@ -80,7 +80,7 @@
     <hr>
 
     <footer>
-        <p>&copy; Company 2014</p>
+        <p>&copy; @virtuaThinko 2022</p>
     </footer>
 </div> <!-- /container -->
 
