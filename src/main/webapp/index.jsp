@@ -35,9 +35,8 @@
             <a class="navbar-brand" href="#">Web App for Developers</a>
         </div>
         
-       var userposition=location.href.indexOf("user=");
-var user=location.href.substring(userposition+5);
-document.getElementById("Welcome").innerHTML=" Hello, "+user;
+    <div class"hhh>
+            <p>hellosss</p>   
 
         <div class="navbar-collapse collapse">
             <form class="navbar-form navbar-right" role="form">
