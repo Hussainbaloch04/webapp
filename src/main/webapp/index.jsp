@@ -80,7 +80,7 @@
     <hr>
 
     <footer>
-        <p>&copy; @virtuaThinko 2022</p>
+        <p>&copy; virtuaThinko 2022</p>
     </footer>
 </div> <!-- /container -->
 
