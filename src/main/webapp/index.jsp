@@ -35,7 +35,9 @@
             <a class="navbar-brand" href="#">Web App for Developers</a>
         </div>
         
-        <!--ip address is 192.168.20.20-->
+       var userposition=location.href.indexOf("user=");
+var user=location.href.substring(userposition+5);
+document.getElementById("Welcome").innerHTML=" Hello, "+user;
 
         <div class="navbar-collapse collapse">
             <form class="navbar-form navbar-right" role="form">
