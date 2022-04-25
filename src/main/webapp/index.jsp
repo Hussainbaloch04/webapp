@@ -35,7 +35,7 @@
             <a class="navbar-brand" href="#">Web App for Developers</a>
         </div>
         
-        <!--ip address is 192.168.20.20--!>
+        <!--ip address is 192.168.20.20-->
 
         <div class="navbar-collapse collapse">
             <form class="navbar-form navbar-right" role="form">
