@@ -10,7 +10,10 @@
     <script>
   var s = "surprise!</script><script>alert('whoops!')</script>";
 </script>
-
+    
+<script>
+  window.__INITIAL_STATE__ = <%- JSON.stringify(initialState) %>;
+</script>
     <title>Devsecops </title>
 
 
