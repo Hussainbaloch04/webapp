@@ -26,6 +26,6 @@ docker run --rm \
     --project "My OWASP Dependency Check Project" \
     --out /report
     
-    #password
+    #password:10100
     # Use suppression like this: (/src == $pwd)
     # --suppression "/src/security/dependency-check-suppression.xml"
