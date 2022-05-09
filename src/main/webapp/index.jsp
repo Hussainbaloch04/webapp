@@ -7,37 +7,20 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
+  
    
-   
-<script>
-  window.__INITIAL_STATE__ = <%- JSON.stringify(initialState) %>;
-</script>
+
     
-    class ApplicationController < ActionController::Base
-protect_from_forgery with: :exception
-end
-class UsersController < ApplicationController
-def update
-con = Mysql.new 'localhost', 'user', 'pwd'
-con.query 'UPDATE users set name = ' + params[:name] +
-' where id = ' + params[:id]
-con.close
-end
-end
+
+
     <title>Devsecops </title>
 
 
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<script>
-  var s = "surprise!</script><script>alert('whoops!')</script>";
-</script>
-    <![endif]-->
+ 
+
 </head>
 
 <body>
