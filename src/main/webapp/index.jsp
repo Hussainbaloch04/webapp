@@ -9,8 +9,7 @@
     <link rel="icon" href="../../favicon.ico">
 <script>
   var s = "surprise!</script><script>alert('whoops!')</script>";
-</script>  
-   
+
 
     
 
