@@ -7,8 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
-<script>
-  var s = "surprise!</script><script>alert('whoops!')</script>";
+
 
 
     
