@@ -46,8 +46,6 @@ public IEnumerable<RPMTravelTimeTest> CalculateTravelTimeFromSegmentFile(string 
 <body>
     
  
-<script>
-  var s = "surprise!</script><script>alert('whoops!')</script>";
  
 
 <link rel="stylesheet" href="/static/style.css" type="text/css">
