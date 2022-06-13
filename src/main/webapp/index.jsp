@@ -24,6 +24,15 @@
 </head>
 
 <body>
+    
+    catch (Exception e)
+{
+if(log.isDebugEnabled()) log.debug (context, EVENTS.ADHOC,
+"Caught InvalidGSMException Exception -- "
++ e.toString() );
+
+<input type="text" maxlength="30" name="ecsChangePwdForm" size="40" readonly="true"  value='<%=ESAPI.encoder().encodeForHTML(request.getParameter("userName"))%>'/>
+    
   String input = request.getParameter ("SeqNo");
 String characterPattern = "[0-9a-zA-Z]";
 If (! input. matches (characterPattern))
