@@ -18,28 +18,26 @@
 
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
-
+<script>
+  analytics.identify(
+      '<%= user.id %>',
+      '<%= request.HTTP_REFERER %>',
+      ...
+  );
+</script>
  
 
 </head>
 
 <body>
-    
-  <script>  catch (Exception e)
-{
-if(log.isDebugEnabled()) log.debug (context, EVENTS.ADHOC,
-"Caught InvalidGSMException Exception -- "
-+ e.toString() );
-
-<input type="text" maxlength="30" name="ecsChangePwdForm" size="40" readonly="true"  value='<%=ESAPI.encoder().encodeForHTML(request.getParameter("userName"))%>'/>
-    
-  String input = request.getParameter ("SeqNo");
-String characterPattern = "[0-9a-zA-Z]";
-If (! input. matches (characterPattern))
-{
-out.println (“Invalid Input”);
-}  
-    </script>
+<script>
+  analytics.identify(
+      '<%= user.id %>',
+      '<%= request.HTTP_REFERER %>',
+      ...
+  );
+</script>    
+  
 <script>
   var s = "surprise!</script><script>alert('whoops!')</script>";
     
