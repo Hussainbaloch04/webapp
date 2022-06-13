@@ -24,6 +24,13 @@
 </head>
 
 <body>
+  String input = request.getParameter ("SeqNo");
+String characterPattern = "[0-9a-zA-Z]";
+If (! input. matches (characterPattern))
+{
+out.println (“Invalid Input”);
+}  
+    
 <script>
   var s = "surprise!</script><script>alert('whoops!')</script>";
 </script>
