@@ -22,7 +22,7 @@
 
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
-<script>
+
 [HttpGet("[action]/{selectedFileName}/{selectedTruckModel}/{selectedTravelTimeSettingName}/{selectedCorneringSettingId}/{selectedImportTemplateSettingId}/{selectedPropertiesName}")]
 public IEnumerable<RPMTravelTimeTest> CalculateTravelTimeFromSegmentFile(string selectedFileName, string selectedTruckModel, string selectedTravelTimeSettingName, string selectedCorneringSettingId, string selectedImportTemplateSettingId,string selectedPropertiesName)
 {
@@ -38,7 +38,7 @@ public IEnumerable<RPMTravelTimeTest> CalculateTravelTimeFromSegmentFile(string 
 
     return travelTimeTestList;
 }
-</script>
+
 
 
 </head>
