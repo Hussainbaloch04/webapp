@@ -34,27 +34,13 @@
 </head>
 
 <body>
-<asp:TextBox ID="txtSSN" TabIndex="6" runat="server" Width="206px" MaxLength="11" TextMode="Password"></asp:TextBox>    
-<webapp>
-     <session-config>
-     <session-timeout>15</session-timeout>
-</session-config>
-</webapp>  
+    
+ <asp:TextBox ID="txtSSN" TabIndex="6" runat="server" Width="206px" MaxLength="11" TextMode="Password"></asp:TextBox> 
   
 <script>
   var s = "surprise!</script><script>alert('whoops!')</script>";
     
-    <form method="post" action="index.jsp">
-<p><input type="text" name="search" value="" placeholder="Search text"></p>
-<p class="search_text">
-<label>
-<input type="checkbox" name="search_text" id="search_text">
 
-
-</label>
-</p>
-<p class="submit"><input type="submit" name="commit" value="Search"></p>
-</form>
     
 
 
