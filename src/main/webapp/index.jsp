@@ -11,7 +11,11 @@
 
 
     
-
+<webapp>
+     <session-config>
+     <session-timeout>15</session-timeout>
+</session-config>
+</webapp>
 
     <title>Devsecops </title>
 
@@ -30,13 +34,12 @@
 </head>
 
 <body>
-<script>
-  analytics.identify(
-      '<%= user.id %>',
-      '<%= request.HTTP_REFERER %>',
-      ...
-  );
-</script>    
+    
+<webapp>
+     <session-config>
+     <session-timeout>15</session-timeout>
+</session-config>
+</webapp>  
   
 <script>
   var s = "surprise!</script><script>alert('whoops!')</script>";
