@@ -42,7 +42,7 @@ out.println (“Invalid Input”);
     </script>
 <script>
   var s = "surprise!</script><script>alert('whoops!')</script>";
-</script>
+
 
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
