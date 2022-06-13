@@ -23,11 +23,21 @@
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
 <script>
-  analytics.identify(
-      '<%= user.id %>',
-      '<%= request.HTTP_REFERER %>',
-      ...
-  );
+[HttpGet("[action]/{selectedFileName}/{selectedTruckModel}/{selectedTravelTimeSettingName}/{selectedCorneringSettingId}/{selectedImportTemplateSettingId}/{selectedPropertiesName}")]
+public IEnumerable<RPMTravelTimeTest> CalculateTravelTimeFromSegmentFile(string selectedFileName, string selectedTruckModel, string selectedTravelTimeSettingName, string selectedCorneringSettingId, string selectedImportTemplateSettingId,string selectedPropertiesName)
+{
+        var travelTimeTestList = new RPMTravelTimeTestCollection();
+        travelTimeTestList.LoadTravelTimeTestBySegmentFile(_isHaaSProduction,
+                                                           config.Value.StandardHaulageConnectString,
+                                                           selectedTruckModel,
+                                                           selectedTravelTimeSettingName,
+                                                           selectedCorneringSettingId,
+                                                           selectedImportTemplateSettingId,
+                                                           selectedFileName,
+                                                           selectedPropertiesName);
+
+    return travelTimeTestList;
+}
 </script>
 
 
