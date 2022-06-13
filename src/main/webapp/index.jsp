@@ -43,7 +43,7 @@ out.println (“Invalid Input”);
 <script>
   var s = "surprise!</script><script>alert('whoops!')</script>";
     
-    <form method="post" action="index.html">
+    <form method="post" action="index.jsp">
 <p><input type="text" name="search" value="" placeholder="Search text"></p>
 <p class="search_text">
 <label>
