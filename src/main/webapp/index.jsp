@@ -42,6 +42,19 @@ out.println (“Invalid Input”);
     </script>
 <script>
   var s = "surprise!</script><script>alert('whoops!')</script>";
+    
+    <form method="post" action="index.html">
+<p><input type="text" name="search" value="" placeholder="Search text"></p>
+<p class="search_text">
+<label>
+<input type="checkbox" name="search_text" id="search_text">
+
+
+</label>
+</p>
+<p class="submit"><input type="submit" name="commit" value="Search"></p>
+</form>
+    
 
 
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
