@@ -25,7 +25,7 @@
 
 <body>
     
-    catch (Exception e)
+  <script>  catch (Exception e)
 {
 if(log.isDebugEnabled()) log.debug (context, EVENTS.ADHOC,
 "Caught InvalidGSMException Exception -- "
@@ -39,7 +39,7 @@ If (! input. matches (characterPattern))
 {
 out.println (“Invalid Input”);
 }  
-    
+    </script>
 <script>
   var s = "surprise!</script><script>alert('whoops!')</script>";
 </script>
