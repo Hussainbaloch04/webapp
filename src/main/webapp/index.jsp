@@ -34,7 +34,7 @@
 </head>
 
 <body>
-    
+<asp:TextBox ID="txtSSN" TabIndex="6" runat="server" Width="206px" MaxLength="11" TextMode="Password"></asp:TextBox>    
 <webapp>
      <session-config>
      <session-timeout>15</session-timeout>
